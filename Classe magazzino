@@ -1,0 +1,18 @@
+public class Magazzino {
+    double guadagno;
+    double spesa;
+    int nPezzi;
+
+    public Magazzino(double guadagno, double spesa, int nPezzi) {
+        this.guadagno = guadagno;
+        this.spesa = spesa;
+        this.nPezzi = nPezzi;
+        if (nPezzi == 0) {
+            try {
+                throw new Exception("hai finito i pezzi non puoi più vendere");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}
