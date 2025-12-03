@@ -1,9 +1,9 @@
-public class Magazzino {
+public class Magazzino extends Pezzo{
     double guadagno;
     double spesa;
-    int nPezzi;
-
-    public Magazzino(double guadagno, double spesa, int nPezzi) {
+    int nPezzi=999999999;
+    public Magazzino(float prezzomagazzino,float prezzoacquirente,int Codice,double guadagno, double spesa, int nPezzi) {
+        super(prezzomagazzino,prezzoacquirente,Codice);
         this.guadagno = guadagno;
         this.spesa = spesa;
         this.nPezzi = nPezzi;
@@ -15,4 +15,7 @@ public class Magazzino {
             }
         }
     }
+double Guadagnototale=prezzoacquirente-spesa;
+double Spesatotale=prezzomagazzino;
+int nPezzirimanenti=nPezzi-PezziComprati;
 }
