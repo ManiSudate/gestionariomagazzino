@@ -22,5 +22,5 @@ public class Acquirente extends Pezzo {
         }
     }
     float scontoeuro =(prezzoacquirente * sconto)/100;
-    float ScontoFinale = prezzoacquirente-scontoeuro;
+    float PrezzoFinale = prezzoacquirente-scontoeuro;
 }
