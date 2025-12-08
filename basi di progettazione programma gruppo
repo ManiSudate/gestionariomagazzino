@@ -44,7 +44,7 @@ classe pezzo generico. Classe Soldi. Classe clienti.
 ASSEGNAZIONE DEI RUOLI: 
 CETTA: Fare classe pezzo e metodi 
 Valentini: fare classe acquirente che estende cittadino 
-Vendetta: fare metodi di acquirente 
+Vendetta: fare metodi di acquirente e  cittadino
 Licocci: fare il main 
 
 
